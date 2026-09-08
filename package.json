@@ -28,6 +28,10 @@
     "next.json",
     "react-native.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaredbothwell/tsconfig.git"
+  },
   "publishConfig": {
     "access": "public"
   },
