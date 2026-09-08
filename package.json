@@ -1,0 +1,40 @@
+{
+  "name": "@jaredbothwell/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript base configurations",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./base": "./base.json",
+    "./library-base": "./library-base.json",
+    "./cross-platform": "./cross-platform.json",
+    "./node-library": "./node-library.json",
+    "./react-library": "./react-library.json",
+    "./node": "./node.json",
+    "./browser": "./browser.json",
+    "./react": "./react.json",
+    "./next": "./next.json",
+    "./react-native": "./react-native.json"
+  },
+  "files": [
+    "base.json",
+    "library-base.json",
+    "cross-platform.json",
+    "node-library.json",
+    "react-library.json",
+    "node.json",
+    "browser.json",
+    "react.json",
+    "next.json",
+    "react-native.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "typescript": ">=7.0.0"
+  }
+}
