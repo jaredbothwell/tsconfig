@@ -29,7 +29,7 @@
     "react-native.json"
   ],
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "engines": {
     "node": ">=22"
