@@ -6,7 +6,6 @@
     "noEmit": true,
     "allowJs": true,
     "resolveJsonModule": true,
-    "incremental": true,
     "plugins": [{ "name": "next" }]
   }
 }
